@@ -1,4 +1,4 @@
-
+<h1> Русское описание </h1>
 <p>В работе мне нужно автоматом перевести большой пул ключей или текст на разные языки.</p>
 <p>Нашел отличный и быстрый способ.</p>
 <li>Для этого нам нужно зайти в https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com и включить API;</li>
@@ -9,7 +9,7 @@
 <li>Запускаем скрипт и наслаждаемся переводом, он конечно не самый будет хороший, но довольно быстрый.</li>
 
 
-
+<h1> English Description </h1>
 <p>In my work, I need to automatically translate a large pool of keys or text into different languages.</p>
 <p>Found a great and quick way.</p>
 <li>To do this, we need to go to https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com and enable the API;</li>
