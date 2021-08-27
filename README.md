@@ -3,6 +3,7 @@
 <p>Нашел отличный и быстрый способ.</p>
 <li>Для этого нам нужно зайти в https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com и включить API;</li>
 <li>Получить ключик API.json из постов выше;</li>
+<li>os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "yourfilecredentials.json" - тут меняем на название своего файла</li>
 <li>Взять код что прикреплен;</li>
 <li>В txt файл "translate.txt" занести текст что хотим перевести;</li>
 <li>Найти строку "target='en'" - поставить нужный язык для перевода; Нужный язык ищем тут (https://cloud.google.com/translate/docs/languages).</li>
@@ -14,6 +15,7 @@
 <p>Found a great and quick way.</p>
 <li>To do this, we need to go to https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com and enable the API;</li>
 <li>Get API key.json from the posts above;</li>
+<li>os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "yourfilecredentials.json" - change on your json api key</li>
 <li>Take the code that is attached;</li>
 <li>In the txt file &quot;translate.txt&quot; enter the text that you want to translate;</li>
 <li>Find the line &quot;target = &#39;en&#39;&quot; - set the desired language for translation; We are looking for the required language here (https://cloud.google.com/translate/docs/languages).</li>
